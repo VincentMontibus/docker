@@ -12,8 +12,8 @@ RUN apt-get update \
     trac-navadd \
     trac-tags \
     trac-email2trac \
-    git-core \
-    mercurial \
+#    git-core \
+#    mercurial \
  && apt-get clean \
  && rm -r /var/lib/apt/lists/*
 
