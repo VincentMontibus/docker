@@ -21,4 +21,4 @@ VOLUME ["/trac"]
 EXPOSE 80 443
 
 ENTRYPOINT ["/usr/bin/tracd"]
-CMD ["-p", "80", "-e", "/trac/projects", "--basic-auth=*,/trac/passport.txt,Restricted"]
+CMD ["-p", "80", "-e", "/trac/projects", "--basic-auth=*,/trac/password.txt,Restricted"]
